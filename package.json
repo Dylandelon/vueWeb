@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
+    "dingtalk-jsapi": "^2.8.11",
     "element-ui": "^2.12.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
