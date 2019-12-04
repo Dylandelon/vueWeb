@@ -16,24 +16,8 @@
             }
         },
         mounted() {
-          this.code=document.getElementById("code").textContent;
-            //获取apiUrl
-            // this.dataAccessApiUrl = `${this.$dataAccessApiUrl}`
-            // 获取整体统计下的数据
-            // this.$axios.get(this.MetricsUrl + `/api/v1/iot-service-metrics/device/register/sum`,{
-            
-            // this.$axios.get(this.MetricsUrl + `/metrics/statistics/queryAll`,{
-			// 		params: {
-            //         startTime: this.startTime,
-            //         endTime:  this.endTime
-			// 		}
-					
-			// 	}).then(response => {
-            //     this.code = response.data.data[0].deviceRegisterSum
-                
-                
-            
-            // })
+          this.code=this.dd;
+        
 
             
         },
